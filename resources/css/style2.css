@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+html,
+body {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  color: #fff;
+  line-height: 1.2;
+  text-rendering: optimizeLegibility;
+  word-spacing: 0.1rem;
+}
+
+body {
+  background-color: #000;
+}
+
+.row {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.header {
+  position: relative;
+  width: 100%;
+  height: 150vh;
+}
+
+.header_heroImageContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.header_heroImageContainer--image {
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+}
+
+.header_heroImageGradient {
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.7)
+  );
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+
+.header_navigation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  padding: 2.5rem 4.5rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header_navigation--logo img {
+  height: 5.8rem;
+  /* filter: brightness(95%); */
+}
+
+.header-form {
+  text-align: center;
+  display: block;
+  position: absolute;
+  flex-direction: row;
+  width: 33%;
+  background-color: rgba(0, 0, 0, 0.75);
+  margin: 0 auto;
+  z-index: 5;
+  top: 10rem;
+  right: 43rem;
+  padding: 2rem 2rem 15rem 2rem;
+}
+
+.header-formHeading {
+  font-size: 3.5rem;
+  font-weight: 600;
+  text-align: left;
+
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 4rem;
+  margin-top: 4.5rem;
+}
+
+.header-formInput {
+  font-size: 1.6rem;
+  padding: 2.5rem 1rem;
+  width: 80%;
+  outline: none;
+  border: none;
+  background-color: #333;
+  border-radius: 0.5rem;
+  margin-bottom: 2rem;
+  height: 2rem;
+  color: #fff;
+}
+
+.header-formButton {
+  color: #fff;
+  width: 80%;
+  outline: none;
+  border: none;
+  background-color: #e50914;
+  cursor: pointer;
+  margin-top: 2.5rem;
+  height: 5rem;
+  border-radius: 0.5rem;
+}
+
+.header-formButton:hover {
+  background-color: #f61a25;
+}
+
+.header-formButton span {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.header-formCheck {
+  list-style: none;
+  display: flex;
+
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  color: #b3b3b3;
+}
+
+.formfoot {
+  text-align: left;
+  color: #8c8c8c;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 5rem;
+}
+
+.header-formFB {
+  display: flex;
+}
+
+.header-formFB--logo img {
+  height: 2rem;
+  width: 2rem;
+}
+
+.header-formFB--text {
+  font-size: 1.2rem;
+  margin: 0.2rem 0 2rem 0.9rem;
+}
+
+.text1 {
+  font-size: 1.5rem;
+}
+
+.text2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #fff !important;
+}
+
+.header-formNetflix {
+  margin-bottom: 1.6rem;
+}
+
+.header-formNetflix a {
+  text-decoration: none;
+}
+
+.captcha {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.learn-more {
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: #0071eb;
+  font-weight: 400;
+}
+
+.learn-more:hover {
+  text-decoration: underline;
+}
+
+/* Footer Styling */
